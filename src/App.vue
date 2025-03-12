@@ -1,15 +1,16 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import Dashboard from './components/Dashboard.vue';
+import Test from './components/Test.vue';
 
 
 </script>
 
 <template>
   <div>
-
+    <Dashboard></Dashboard>
+    <!-- <Test></Test> -->
   </div>
-  <Dashboard></Dashboard>
+  
 </template>
 
 <style scoped>
